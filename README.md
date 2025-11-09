@@ -34,7 +34,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 # Create the Text using cv2.putText
 # Add text on the image using cv2.putText
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'RAKSHAN', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'HARI', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 # Create a simple square kernel (3x3)
 kernel = np.ones((3, 3), np.uint8)
 
@@ -60,13 +60,15 @@ plt.axis("off")
 ## Output:
 
 ### Display the input Image
-<img width="509" height="515" alt="image" src="https://github.com/user-attachments/assets/994937fd-0d54-4251-9c09-67bb9dd08af6" />
+<img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/82f08a7e-e9f9-4f6a-a970-42170f717892" />
 
 ### Display the result of Opening
-<img width="504" height="513" alt="image" src="https://github.com/user-attachments/assets/4d5c752f-aeaa-4b3c-8013-a2043c44e508" />
+<img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/e1547f21-9224-4b6a-978d-9bccf6e06753" />
+
 
 ### Display the result of Closing
-<img width="495" height="487" alt="image" src="https://github.com/user-attachments/assets/460294a5-a5a5-4d34-a9ad-9f44f708023e" />
+<img width="389" height="389" alt="image" src="https://github.com/user-attachments/assets/af4cfe60-b5a1-4ec8-ada5-dcd76414878a" />
+
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
